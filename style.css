@@ -1,5 +1,7 @@
 *{
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .container{
     width: 1200px;
@@ -18,6 +20,7 @@ nav ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    olor: #424242;
 }
 nav ul li{
     list-style: none;
@@ -32,8 +35,9 @@ nav ul li{
     margin-bottom: 25px;
 }
 .header-title p{
-    font-size: 16px;
+    font-size: 20px;
     margin-bottom: 25px;
+    color: #727272;
 }
 .header-title button{
     padding: 15px 30px;
@@ -45,4 +49,16 @@ nav ul li{
 }
 .header-image{
     text-align: center;
+}
+
+.features{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.fertures-images h3{
+    margin-bottom: 30px;
+}
+.description{
+
 }
